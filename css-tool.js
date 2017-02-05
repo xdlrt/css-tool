@@ -1,11 +1,18 @@
 /**
- * @author Icarus
+ * @author Icarus,http://ruitaolu.cn
  * @name css-tool.js
  * @description 原生 JS 实现 CSS 属性的 get 与 set，兼容主流浏览器与 IE78
+ *
+ * 用法：
+ * var cc = new cssTool();
+ * cc.get(elem,'font-size');
+ * cc.set(elem,'opacity','0.5');
+ *
  */
 
-(function (window) {
-
+;(function (window,undefined) {
+  "use strict";
+  
   /**
    * 驼峰命名法转换，IE78使用
    * font-size --> fontSize
