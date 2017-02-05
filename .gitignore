@@ -1,0 +1,5 @@
+# .gitignore by Icarus
+
+node_modules/
+.cache
+*.log

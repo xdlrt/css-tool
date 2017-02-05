@@ -1,0 +1,24 @@
+{
+  "name": "css-tool",
+  "version": "0.0.1",
+  "description": "原生 JS 实现 CSS 属性的 get 与 set，兼容主流浏览器与 IE78",
+  "main": "css-tool.js",
+  "scripts": {
+    "start": "gulp uglify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdlrt/css-tool.git"
+  },
+  "author": "Icarus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdlrt/css-tool/issues"
+  },
+  "homepage": "https://github.com/xdlrt/css-tool#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1"
+  }
+}
