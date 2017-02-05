@@ -43,9 +43,15 @@
     return 1;
   }
 
-  var cssTool = function () {}
+  var cssTool = function () {
+    return new cssTool.prototype.init();
+  }
 
   cssTool.prototype = {
+		init: function() {
+      console.log('init success');
+			return this;
+		},
     /**
      * 获取样式
      * @param elem 获取值的dom元素
@@ -75,7 +81,7 @@
         // 直接获取外部样式表未设置的 width 和 height 返回值为 auto
         // 为了获取精确的 px 值，使用 getBoundingClientRect 方法
         // getBoundingClientRect 可以获得元素四个点相对于文档视图左上角
-        // 的 top、left、bottom、right值，进行简单计算
+        // 的 top、left、bottom、right值，进行简单计算即可
         else if(condition){
           var clientRect = elem.getBoundingClientRect();
           return (attr === 'width' ?
@@ -109,6 +115,7 @@
     }
   }
 
+  cssTool.prototype.init.prototype = cssTool.prototype;
   // 暴露接口
   window.cssTool = cssTool;
 
