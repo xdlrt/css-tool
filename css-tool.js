@@ -12,7 +12,7 @@
 
 ;(function (window,undefined) {
   "use strict";
-  
+
   /**
    * 驼峰命名法转换，IE78使用
    * font-size --> fontSize
@@ -43,15 +43,9 @@
     return 1;
   }
 
-  var cssTool = function () {
-    return new cssTool.prototype.init();
-  }
+  var cssTool = function () {}
 
   cssTool.prototype = {
-		init: function() {
-      console.log('init success');
-			return this;
-		},
     /**
      * 获取样式
      * @param elem 获取值的dom元素
@@ -111,11 +105,10 @@
         }
       }
       // 通用方式
-      elem.style.cssText += (attr + ':' + value) + ';';
+      elem.style.cssText += ';' + (attr + ':' + value) + ';';
     }
   }
 
-  cssTool.prototype.init.prototype = cssTool.prototype;
   // 暴露接口
   window.cssTool = cssTool;
 

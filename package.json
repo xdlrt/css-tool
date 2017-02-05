@@ -11,7 +11,7 @@
     "url": "git+https://github.com/xdlrt/css-tool.git"
   },
   "author": "Icarus",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xdlrt/css-tool/issues"
   },
