@@ -17,13 +17,13 @@
 - `set(elem, attr, value)`设置节点 elem 的 attr 属性为 value
 
 ## 待完成
-- 操作多个属性
-- 使用 ES6 改写
-- 发布为 npm 模块
+- [ ] 操作多个属性
+- [ ] 使用 ES6 改写
+- [ ] 发布为 npm 模块
 
 ## 相关资料
 - [我们来翻翻元素样式的族谱-getComputedStyle](https://xdlrt.github.io/2017/01/30/2017-01-30/)
 - [手把手带你用原生js实现css属性的set和get](http://xdlrt.github.io/2017/02/05/2017-02-05)
 
 ## 贡献
-如果你有任何问题，欢迎提 issue 或者 pr，万分感谢。
+如果你有任何问题，欢迎提 issue 或者 pr。
