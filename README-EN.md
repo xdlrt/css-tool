@@ -23,7 +23,7 @@ also you can
 - `set(elem, attr, value)` change an attribute of node `elem` into `value`
 
 ## todo list
-- [] Operate multiple attributes
+- [ ] Operate multiple attributes
 - [x] Use ES6 to reconfigure this project
 - [x] publish as a npm module
 
