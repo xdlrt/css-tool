@@ -1,5 +1,5 @@
 /**
- * @author Icarus,http://ruitaolu.cn
+ * @author Icarus
  * @name css-tool.js
  * @description 原生 JS 实现 CSS 属性的 get 与 set，兼容主流浏览器与 IE78
  *
@@ -38,9 +38,7 @@
     var value = parseFloat(filter[1]);
     if (!isNaN(value)) {
       // 转化为0-1
-      return value
-        ? value / 100
-        : 0;
+      return value ? value / 100 : 0;
     }
     return 1;
   }

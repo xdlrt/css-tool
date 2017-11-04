@@ -1,8 +1,8 @@
 {
   "name": "css-tool",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "原生 JS 实现 CSS 属性的 get 与 set，兼容主流浏览器与 IE78",
-  "main": "css-tool.js",
+  "main": "index.js",
   "scripts": {
     "start": "gulp uglify"
   },

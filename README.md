@@ -4,13 +4,20 @@
 原生 JavaScript 封装一个可以获取和赋值 css 属性的插件。压缩后体积只有不到 1KB。
 
 ## 快速开始
+
+推荐使用 npm 包的方式引入。
+```js
+import cc from 'css-tool';
+```
+或者
 ```
 <script src="./css-tool.min.js"></script>
 ```
 
 ### 初始化方法
-1. 在你的脚本中使用 `var ct = new cssTool()` 创建 cssTool 实例
-2. 直接使用 `cssTool()`
+1. 使用 npm 包无需引入初始化，直接使用即可
+2. 在你的脚本中使用 `var ct = new cssTool()` 创建 cssTool 实例
+3. 直接使用 `cssTool()`
 
 ### api
 - `get(elem, attr)`获取节点 elem 的 attr 属性值
@@ -18,8 +25,8 @@
 
 ## 待完成
 - [ ] 操作多个属性
-- [ ] 使用 ES6 改写
-- [ ] 发布为 npm 模块
+- [x] 使用 ES6 改写
+- [x] 发布为 npm 模块
 
 ## 相关资料
 - [我们来翻翻元素样式的族谱-getComputedStyle](https://xdlrt.github.io/2017/01/30/2017-01-30/)
